@@ -29,3 +29,10 @@ include:
   - board: seeeduino_xiao_ble
     shield: settings_reset
     artifact-name: settings_reset
+
+  # Same left-pad behavior, with USB logs for TPS43 startup and touch events.
+  - board: seeeduino_xiao_ble
+    shield: nickey44a_l rgbled_adapter
+    snippet: zmk-usb-logging
+    cmake-args: -DCONFIG_INPUT_LOG_LEVEL_DBG=y -DCONFIG_ZMK_LOG_LEVEL_DBG=y
+    artifact-name: nickey44a_l_debug
