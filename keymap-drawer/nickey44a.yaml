@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: nickey44a}
 layers:
   default:
-  - TAB
+  - ESCAPE
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - ''''
-  - LCTRL
+  - LANGUAGE 1
+  - '`'
   - A
   - S
   - D
@@ -23,8 +23,8 @@ layers:
   - J
   - K
   - L
-  - ;
   - '-'
+  - LANGUAGE 2
   - LSHFT
   - Z
   - X
@@ -37,14 +37,14 @@ layers:
   - M
   - ','
   - .
-  - /
-  - '='
-  - '2'
-  - '1'
-  - SPACE
-  - BSPC
-  - RET
-  - RALT
+  - ''''
+  - {t: /, h: RSHIFT}
+  - LEFT ALT
+  - {t: TAB, h: LEFT GUI}
+  - {t: SPACE, h: LEFT CONTROL}
+  - {t: ENTER, h: '1'}
+  - {t: BACKSPACE, h: '2'}
+  - {t: RIGHT ALT, h: '3'}
   '1':
   - ESCAPE
   - '1'
@@ -85,9 +85,9 @@ layers:
   - \
   - {t: ▽, type: trans}
   - '3'
-  - {type: held}
   - {t: ▽, type: trans}
-  - DELETE
+  - {t: ▽, type: trans}
+  - {t: DELETE, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
@@ -129,11 +129,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
   - BT CLR
@@ -174,9 +174,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
