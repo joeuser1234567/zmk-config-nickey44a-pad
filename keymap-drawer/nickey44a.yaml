@@ -46,50 +46,50 @@ layers:
   - {t: BACKSPACE, h: symbols}
   - {t: RIGHT ALT, h: extra}
   windows_default:
+  - ESCAPE
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - LANGUAGE 1
+  - '`'
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - '-'
+  - LANGUAGE 2
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - N
+  - M
+  - ','
+  - .
+  - ''''
+  - {t: /, h: RSHIFT}
+  - LEFT ALT
   - {t: TAB, h: LEFT GUI}
   - {t: SPACE, h: LEFT CONTROL}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: ENTER, h: numbers}
+  - {t: BACKSPACE, h: symbols}
+  - {t: RIGHT ALT, h: extra}
   numbers:
   - {t: ▽, type: trans}
   - +
@@ -232,11 +232,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&studio_unlock'
-  - '&select_bt'
-  - '&select_bt 1'
-  - '&select_bt 2'
-  - '&select_bt 3'
-  - '&select_bt 4'
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -263,7 +263,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&bluetooth_off 5'
+  - {t: bluetooth, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
