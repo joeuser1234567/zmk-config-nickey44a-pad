@@ -20,25 +20,6 @@
 / {
     combos { compatible = "zmk,combos"; };
 
-    macros {
-        select_bt: select_bt {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&macro_param_1to2 &bt BT_SEL MACRO_PLACEHOLDER>,
-                       <&bluetooth_off BLUETOOTH>;
-        };
-    };
-
-    behaviors {
-        bluetooth_off: bluetooth_off {
-            compatible = "zmk,behavior-toggle-layer";
-            #binding-cells = <1>;
-            toggle-mode = "off";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -53,10 +34,10 @@
 
         windows_default: windows_default_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans  &mt LEFT_GUI TAB  &mt LEFT_CONTROL SPACE    &trans  &trans  &trans
+&kp ESCAPE  &kp Q  &kp W  &kp E  &kp R         &kp T                                                    &kp Y            &kp U            &kp I      &kp O    &kp P             &kp LANGUAGE_1
+&kp GRAVE   &kp A  &kp S  &kp D  &kp F         &kp G                                                    &kp H            &kp J            &kp K      &kp L    &kp MINUS         &kp LANGUAGE_2
+&kp LSHFT   &kp Z  &kp X  &kp C  &kp V         &kp B             &trans                    &trans       &kp N            &kp M            &kp COMMA  &kp DOT  &kp SINGLE_QUOTE  &mt RSHIFT SLASH
+                                 &kp LEFT_ALT  &mt LEFT_GUI TAB  &mt LEFT_CONTROL SPACE        &lt NUMBERS ENTER  &lt SYMBOLS BACKSPACE  &lt EXTRA RIGHT_ALT
             >;
         };
 
@@ -87,11 +68,11 @@
             >;
         };
 
-        bluetooth_layer {
+        bluetooth_settings: bluetooth_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &studio_unlock                    &select_bt 0  &select_bt 1    &select_bt 2  &select_bt 3  &select_bt 4  &trans
+&trans  &trans  &trans  &trans  &trans  &studio_unlock                    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                            &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans        &trans          &trans        &trans        &trans        &bluetooth_off BLUETOOTH
+&trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans        &trans          &trans        &trans        &trans        &tog BLUETOOTH
                                 &trans  &trans          &trans    &trans  &trans        &trans
             >;
         };
