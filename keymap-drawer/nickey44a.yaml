@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: nickey44a}
 layers:
-  default:
+  mac_default:
   - ESCAPE
   - Q
   - W
@@ -40,12 +40,57 @@ layers:
   - ''''
   - {t: /, h: RSHIFT}
   - LEFT ALT
+  - {t: TAB, h: LEFT ALT}
+  - {t: SPACE, h: LEFT GUI}
+  - {t: ENTER, h: numbers}
+  - {t: BACKSPACE, h: symbols}
+  - {t: RIGHT ALT, h: extra}
+  windows_default:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: TAB, h: LEFT GUI}
   - {t: SPACE, h: LEFT CONTROL}
-  - {t: ENTER, h: '1'}
-  - {t: BACKSPACE, h: '2'}
-  - {t: RIGHT ALT, h: '3'}
-  '1':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  numbers:
   - {t: ▽, type: trans}
   - +
   - '-'
@@ -83,14 +128,14 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '4', h: toggle}
+  - {t: bluetooth, h: toggle}
   - '0'
   - .
   - {t: ▽, type: trans}
   - {type: held}
   - DELETE
   - {t: ▽, type: trans}
-  '2':
+  symbols:
   - {t: ▽, type: trans}
   - '!'
   - '@'
@@ -135,7 +180,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  '3':
+  extra:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -180,18 +225,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  '4':
+  bluetooth:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&studio_unlock'
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - '&select_bt'
+  - '&select_bt 1'
+  - '&select_bt 2'
+  - '&select_bt 3'
+  - '&select_bt 4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -218,7 +263,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&bluetooth_off 5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
