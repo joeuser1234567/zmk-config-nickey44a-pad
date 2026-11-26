@@ -45,7 +45,7 @@
             bindings = <
 &trans  &kp PLUS      &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                    &kp F2          &kp F3          &kp F12          &trans  &trans  &trans
 &trans  &kp ASTERISK  &kp SLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6                    &trans          &kp UP_ARROW    &trans           &trans  &trans  &trans
-&trans  &kp EQUAL     &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &tog BLUETOOTH
+&trans  &kp EQUAL     &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &mo BLUETOOTH
                                                &kp NUMBER_0  &kp PERIOD    &trans    &trans  &kp DELETE      &trans
             >;
         };
@@ -68,11 +68,11 @@
             >;
         };
 
-        bluetooth_settings: bluetooth_layer {
+        bluetooth_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &studio_unlock                    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                            &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans        &trans          &trans        &trans        &trans        &tog BLUETOOTH
+&trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans        &trans          &trans        &trans        &trans        &trans
                                 &trans  &trans          &trans    &trans  &trans        &trans
             >;
         };
