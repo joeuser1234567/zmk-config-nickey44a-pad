@@ -270,3 +270,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [2, 1]
+  k: Gui+Ctl+LEFT ARROW
+- p: [10, 9]
+  k: Gui+Ctl+RIGHT ARROW
